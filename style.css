@@ -1,0 +1,45 @@
+.calc {
+  display: relation;
+  width: 150px;
+  background-color: #000;
+}
+
+.calc-body {
+  text-align: center;
+}
+
+.calc-disp {
+  color: white;
+  text-align: right;
+  padding: 5px 10px;
+  padding-top: 20px;
+  margin: 0;
+  font-size: 25px;
+}
+
+button {
+  width: 30px;
+  height: 30px;
+  margin: 2px 1px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+ 
+  border:none;
+  background-color: #222;
+  color: white;
+}
+
+.special-button {
+  color: black;
+  background-color: #AAA;
+}
+
+.operator-button {
+  background-color: orange;
+}
+
+.zero-button {
+  width: 65px;
+  border-radius: 35%;
+}
